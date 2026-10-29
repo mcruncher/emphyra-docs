@@ -1,11 +1,13 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
+  --ifm-color-primary: #0A84FF;
+  --ifm-color-primary-dark: #0678ea;
+  --ifm-color-primary-darker: #024e9b;
+  --ifm-color-primary-darkest: #00254a;
+  --ifm-color-primary-light: #0783ff;
+  --ifm-color-primary-lighter: #0984ff;
+  --ifm-color-primary-lightest: #2994ff;
+  --ifm-code-font-size: 95%;
+
   --ifm-color-success: #0A84FF;
   --ifm-color-success-dark: #0678ea;
   --ifm-color-success-darker: #024e9b;
@@ -15,11 +17,19 @@
   --ifm-color-success-lightest: #2994ff;
   --ifm-color-success-contrast-background: #e6f2ff;
   --ifm-color-success-contrast-foreground: #002a52;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
+  --ifm-color-primary: #2994ff;
+  --ifm-color-primary-dark: #2994ff;
+  --ifm-color-primary-darker: #2994ff;
+  --ifm-color-primary-darkest: #2994ff;
+  --ifm-color-primary-light: #2994ff;
+  --ifm-color-primary-lighter: #2994ff;
+  --ifm-color-primary-lightest: #2994ff;
+
   --ifm-color-success: #2994ff;
   --ifm-color-success-dark: #2994ff;
   --ifm-color-success-darker: #2994ff;
@@ -29,5 +39,32 @@
   --ifm-color-success-lightest: #2994ff;
   --ifm-color-success-contrast-background: #0a2540;
   --ifm-color-success-contrast-foreground: #cfe6ff;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__link,
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--ifm-font-color-base);
+}
+
+.menu__link,
+.menu__link:hover,
+.menu__link--active:not(.menu__link--sublist) {
+  color: var(--ifm-font-color-base);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  font-weight: 600;
+}
+
+.table-of-contents__link--active,
+.table-of-contents__link:hover {
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--ifm-font-color-base);
 }
