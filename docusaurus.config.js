@@ -44,7 +44,7 @@ const config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Emphyra',
+      title: '',
       logo: {
         alt: 'Emphyra Logo',
         src: 'img/logo.svg',
@@ -54,7 +54,7 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Emphyra Documentation',
+          label: 'Documentation',
         },
       ],
     },
