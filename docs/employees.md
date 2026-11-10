@@ -142,4 +142,11 @@ Need a copy of your employee data for reporting or backup?
 ---
 
 ## What's Next?
+Now that you're set up, the next step is deciding who can do what. Emphyra controls access with three connected ideas:
+
+- **Permissions** are the smallest building blocks. Each one allows a single action in a single area, such as viewing employees' personal information or adding a leave type.
+- **Roles** bundle permissions into a set that matches a job function. For example, the *Admin* role includes all the permissions an administrator needs, so you don't have to pick them one by one.
+- **User Groups** let you give roles to many people at once. Add users to a group, assign it one or more roles, and everyone in the group gets the same access.
+
+In short: permissions say what is allowed, roles package those permissions, and user groups apply the roles to people.
 
