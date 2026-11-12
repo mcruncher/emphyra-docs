@@ -73,3 +73,13 @@ To cancel, select the **X** in the top-right corner of the window.
 
 :::
 
+## What's Next?
+
+Now that you know who can access what, the next step is setting up how leave works in your organisation. Emphyra builds leave around four connected ideas:
+
+- **Leave Types** are the kinds of leave employees can take, such as Annual, Sick or Maternity.
+- **Leave Policies** set the rules for a leave type, including how many days employees are entitled to based on their length of service.
+- **Annual Leave Accrual** decides when annual leave resets each year and how many unused days can be carried forward.
+- **Leave Policy Groups** bring leave policies together. A default group is already created for you, so you can start right away.
+
+In short: leave types say what can be taken, policies say how much, accrual says what happens at year end, and policy groups bundle it all together.

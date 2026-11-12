@@ -1,9 +1,8 @@
 ---
-id: getting-started
 title: Getting Started with Emphyra
 description: Set up your Emphyra account, create your organization, and get familiar with the platform.
-sidebar_position: 1
-slug: /
+sidebar_position: '1'
+slug: '/'
 ---
 # Getting Started with Emphyra
 
